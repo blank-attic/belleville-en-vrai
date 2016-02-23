@@ -1,9 +1,31 @@
+html, body {
+    height:100%;
+}
+
 .splash-screen{
   background-color: red ;
   margin: 0;
   background-image:url(../img/air_by_stupimistavicta-d8c9aq4.png);
-  background-size: cover;
+  background-size: 100%;
   background-repeat:no-repeat;
+  height: 100%;
+}
+
+.text-center{
+    vertical-align: middle;
+}
+
+.textrowcontainer {
+  vertical-align: middle;
+height: 20%;
+}
+
+.center-block{
+height: 60%;
+}
+
+#acceuil{
+  height: 40%;
 }
 main{
 padding-bottom:12px ;
