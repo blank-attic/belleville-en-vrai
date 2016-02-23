@@ -5,3 +5,12 @@
   background-size: cover;
   background-repeat:no-repeat;
 }
+main{
+padding-bottom:12px ;
+}
+footer{
+border-top: 1px solid;
+}
+.social{
+margin-top: 2%;
+}
