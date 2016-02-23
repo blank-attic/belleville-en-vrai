@@ -27,3 +27,12 @@ height: 60%;
 #acceuil{
   height: 40%;
 }
+main{
+padding-bottom:12px ;
+}
+footer{
+border-top: 1px solid;
+}
+.social{
+margin-top: 2%;
+}
