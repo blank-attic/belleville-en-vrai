@@ -45,47 +45,64 @@
 
 
   <body onload="initialize()" class="container-fluid">
-    <nav class="navbar navbar-light bg-faded">
-      <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">
-        &#9776;
-      </button>
-      <div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar2">
-	<img alt="Logo" src="img/belleville-en-vrai-4-logobase.png" width="120px" height="90px"class="pull-left">
-        <ul class="nav navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-        </ul>
+    <nav class="navbar navbar-default bg-faded">
+      <div class="container-fluid" id="exCollapsingNavbar2">
+	<div class="navbar-header">
+	  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+    	  <a class="navbar-brand" href="#">
+	    <img src="img/belleville-en-vrai-4-logobase.png" height="25px" class="pull-left" >
+	  </a>
+	</div>
+	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	  <ul class="nav navbar-nav">
+	    <li class="nav-item">
+	    </li>
+	    <li class="nav-item active">
+	      <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
+	    </li>
+	    <li class="nav-item">
+	      <a class="nav-link" href="#">Agenda</a>
+	    </li>
+	    <li class="nav-item">
+	      <a class="nav-link" href="#">Associations</a>
+	    </li>
+	    <li class="nav-item">
+	      <a class="nav-link" href="#">Editions Précédentes</a>
+	    </li>
+	    <li class="nav-item">
+	      <a class="nav-link" href="#">Partenaires</a>
+	    </li>
+	    <li class="nav-item">
+	      <a class="nav-link" href="#">Contact</a>
+	    </li>
+	  </ul>
+	</div>
       </div>
     </nav>
     <header class="splash-screen">
       <div class="row">
-	<div class="col-xs-12" id="accueil" ><p class="text-center">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p></div>
+        <div class="col-xs-12" id="accueil" ><p class="header-center">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p></div>
       </div>
       <div class="row"><img class="center-block" alt="Logo" src="img/belleville-en-vrai-4-logobase.png" />
-	<div class="col-xs-12"></div>
+        <div class="col-xs-12"></div>
       </div>
       <div class="row">
-	<div class="col-xs-12"><p class="text-center">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p></div>
+        <div class="col-xs-12"><p class="header-center">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p></div>
       </div>
     </header>
     <main class="content">
       <section id="event">
-	<h2 class="col-xs-12 text-center">ROW</h2>
-	<div class="row">
-	  <div class="col-md-4 col-xs-12">
+        <h2 class="col-xs-12 text-center">ROW</h2>
+        <div class="row">
+          <div class="col-md-4 col-xs-12">
 	    <img class="img-responsive" src="images/nature.jpg" alt="image belleville en vrai"/>
-	  </div>
-	  <div class="col-md-8 col-xs-12">
+          </div>
+          <div class="col-md-8 col-xs-12">
 	    <h3 class="col-xs-12 text-center">GUILLAUME</h3>
 	    <p>
 	      Guillaume Norbert, né le 14 octobre 1980 à Châtenay-Malabry, est un footballeur français.
@@ -96,10 +113,10 @@
 	      Il revient en France, au Football Club Lorient, où il est prêté à l'US Créteil,
  	      faisant une saison pleine. Désirant recevoir plus de temps de jeu, il s'engage au SCO d'Angers, présidé par son père.
 	    </p>
-	  </div>
-	</div>
-	<div class="row">
-	  <div class="col-md-8 col-xs-12">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-8 col-xs-12">
 	    <h3 class="col-xs-12 text-center">NORBERT</h3>
 	    <p>
 	      Guillaume Norbert, né le 14 octobre 1980 à Châtenay-Malabry, est un footballeur français.
@@ -110,19 +127,19 @@
 	      Il revient en France, au Football Club Lorient, où il est prêté à l'US Créteil,
 	      faisant une saison pleine. Désirant recevoir plus de temps de jeu, il s'engage au SCO d'Angers, présidé par son père.
 	    </p>
-	  </div>
-	  <div class="col-md-4 col-xs-12">
+          </div>
+          <div class="col-md-4 col-xs-12">
 	    <img class="img-responsive" src="images/summer.jpg" alt="image belleville en vrai"/>
-	  </div>
-	</div>
+          </div>
+        </div>
       </section>
       <section id="association">
-	<h2 class="col-xs-12 text-center">TITRE ASSO</h2>
-	<div class="row">
-	  <div class="col-md-4 col-xs-12">
+        <h2 class="col-xs-12 text-center">TITRE ASSO</h2>
+        <div class="row">
+          <div class="col-md-4 col-xs-12">
 	    <img class="img-responsive" src="images/nature.jpg" alt="image belleville en vrai"/>
-	  </div>
-	  <div class="col-md-8 col-xs-12">
+          </div>
+          <div class="col-md-8 col-xs-12">
 	    <h3 class="col-xs-12 text-center">AZERTY</h3>
 	    <p>
 	      Guillaume Norbert, né le 14 octobre 1980 à Châtenay-Malabry, est un footballeur français.
@@ -133,10 +150,10 @@
 	      Il revient en France, au Football Club Lorient, où il est prêté à l'US Créteil,
 	      faisant une saison pleine. Désirant recevoir plus de temps de jeu, il s'engage au SCO d'Angers, présidé par son père.
 	    </p>
-	  </div>
-	</div>
-	<div class="row">
-	  <div class="col-md-8 col-xs-12">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-8 col-xs-12">
 	    <h3 class="col-xs-12 text-center">QWERTY</h3>
 	    <p>
 	      Guillaume Norbert, né le 14 octobre 1980 à Châtenay-Malabry, est un footballeur français.
@@ -147,142 +164,142 @@
 	      Il revient en France, au Football Club Lorient, où il est prêté à l'US Créteil,
 	      faisant une saison pleine. Désirant recevoir plus de temps de jeu, il s'engage au SCO d'Angers, présidé par son père.
 	    </p>
-	  </div>
-	  <div class ="col-md-4 col-xs-12">
+          </div>
+          <div class ="col-md-4 col-xs-12">
 	    <img class="img-responsive" src="images/summer.jpg" alt="image belleville en vrai"/>
-	  </div>
-	</div>
+          </div>
+        </div>
       </section>
       <section id="agenda">
-  </section>
-  <section id="partenaire">
-    <h2 class="col-xs-12 text-center">Partenaire</h2>
-    <div class="row">
-      <div class="col-xs-12 col-md-6 col-xl-4">
-	<img class="img-responsive" src="images/nature.jpg" alt="image belleville en vrai"/>
-	<h3 class="text-center">TITRE H3</h3>
-	<p>
-	  Guillaume Norbert, né le 14 octobre 1980 à Châtenay-Malabry, est un footballeur français.
-	  Connu pour sa polyvalence au milieu de te
-	  rrain, son poste de prédilection est le flanc droit. Il joue neuf saisons ainsi que 119 matchs au niveau professionnel.
-	  Formé au Paris Saint-Germain puis à l'US Créteil, il quitte la France pour entrer
-	  au centre de formation du Arsenal FC où il se fait remarquer avant d'être freiné par de multiples blessures.
-	  Il revient en France, au Football Club Lorient, où il est prêté à l'US Créteil,
-	  faisant une saison pleine. Désirant recevoir plus de temps de jeu, il s'engage au SCO d'Angers, présidé par son père.
-	</p>
-      </div>
-      <div class="col-xs-12 col-md-6 col-xl-4">
-	<img class="img-responsive" src="images/nature.jpg" alt="image belleville en vrai"/>
-	<h3 class="text-center">TITRE H3</h3>
-	<p>
-	  Guillaume Norbert, né le 14 octobre 1980 à Châtenay-Malabry, est un footballeur français.
-	  Connu pour sa polyvalence au milieu de te
-	  rrain, son poste de prédilection est le flanc droit. Il joue neuf saisons ainsi que 119 matchs au niveau professionnel.
-	  Formé au Paris Saint-Germain puis à l'US Créteil, il quitte la France pour entrer
-	  au centre de formation du Arsenal FC où il se fait remarquer avant d'être freiné par de multiples blessures.
-	  Il revient en France, au Football Club Lorient, où il est prêté à l'US Créteil,
-	  faisant une saison pleine. Désirant recevoir plus de temps de jeu, il s'engage au SCO d'Angers, présidé par son père.
-	</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-xs-12 col-md-6 col-xl-4">
-	<img class="img-responsive" src="images/nature.jpg" alt="image belleville en vrai"/>
-	<h3 class="text-center">TITRE H3</h3>
-	<p>
-	  Guillaume Norbert, né le 14 octobre 1980 à Châtenay-Malabry, est un footballeur français.
-	  Connu pour sa polyvalence au milieu de te
-	  rrain, son poste de prédilection est le flanc droit. Il joue neuf saisons ainsi que 119 matchs au niveau professionnel.
-	  Formé au Paris Saint-Germain puis à l'US Créteil, il quitte la France pour entrer
-	  au centre de formation du Arsenal FC où il se fait remarquer avant d'être freiné par de multiples blessures.
-	  Il revient en France, au Football Club Lorient, où il est prêté à l'US Créteil,
-	  faisant une saison pleine. Désirant recevoir plus de temps de jeu, il s'engage au SCO d'Angers, présidé par son père.
-	</p>
-      </div>
-      <div class="col-xs-12 col-md-6 col-xl-4">
-	<img class="img-responsive" src="images/nature.jpg" alt="image belleville en vrai"/>
-	<h3 class="text-center">TITRE H3</h3>
-	<p>
-	  Guillaume Norbert, né le 14 octobre 1980 à Châtenay-Malabry, est un footballeur français.
-	  Connu pour sa polyvalence au milieu de te
-	  rrain, son poste de prédilection est le flanc droit. Il joue neuf saisons ainsi que 119 matchs au niveau professionnel.
-	  Formé au Paris Saint-Germain puis à l'US Créteil, il quitte la France pour entrer
-	  au centre de formation du Arsenal FC où il se fait remarquer avant d'être freiné par de multiples blessures.
-	  Il revient en France, au Football Club Lorient, où il est prêté à l'US Créteil,
-	  faisant une saison pleine. Désirant recevoir plus de temps de jeu, il s'engage au SCO d'Angers, présidé par son père.
-	</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-xs-12 col-md-6 col-xl-4">
-	<img class="img-responsive" src="images/nature.jpg" alt="image belleville en vrai"/>
-	<h3 class="text-center">TITRE H3</h3>
-	<p>
-	  Guillaume Norbert, né le 14 octobre 1980 à Châtenay-Malabry, est un footballeur français.
-	  Connu pour sa polyvalence au milieu de te
-	  rrain, son poste de prédilection est le flanc droit. Il joue neuf saisons ainsi que 119 matchs au niveau professionnel.
-	  Formé au Paris Saint-Germain puis à l'US Créteil, il quitte la France pour entrer
-	  au centre de formation du Arsenal FC où il se fait remarquer avant d'être freiné par de multiples blessures.
-	  Il revient en France, au Football Club Lorient, où il est prêté à l'US Créteil,
-	  faisant une saison pleine. Désirant recevoir plus de temps de jeu, il s'engage au SCO d'Angers, présidé par son père.
-	</p>
-      </div>
-      <div class="col-xs-12 col-md-6 col-xl-4">
-	<img class="img-responsive" src="images/nature.jpg" alt="image belleville en vrai"/>
-	<h3 class="text-center">TITRE H3</h3>
-	<p>
-	  Guillaume Norbert, né le 14 octobre 1980 à Châtenay-Malabry, est un footballeur français.
-	  Connu pour sa polyvalence au milieu de te
-	  rrain, son poste de prédilection est le flanc droit. Il joue neuf saisons ainsi que 119 matchs au niveau professionnel.
-	  Formé au Paris Saint-Germain puis à l'US Créteil, il quitte la France pour entrer
-	  au centre de formation du Arsenal FC où il se fait remarquer avant d'être freiné par de multiples blessures.
-	  Il revient en France, au Football Club Lorient, où il est prêté à l'US Créteil,
-	  faisant une saison pleine. Désirant recevoir plus de temps de jeu, il s'engage au SCO d'Angers, présidé par son père.
-	</p>
-      </div>
-  </section>
-  <section class="text-center" id="contacts">
-    <h1>Contacts</h1>
+      </section>
+      <section id="partenaire">
+        <h2 class="col-xs-12 text-center">Partenaire</h2>
+        <div class="row">
+          <div class="col-xs-12 col-md-6 col-xl-4">
+	    <img class="img-responsive" src="images/nature.jpg" alt="image belleville en vrai"/>
+	    <h3 class="text-center">TITRE H3</h3>
+	    <p>
+	      Guillaume Norbert, né le 14 octobre 1980 à Châtenay-Malabry, est un footballeur français.
+	      Connu pour sa polyvalence au milieu de te
+	      rrain, son poste de prédilection est le flanc droit. Il joue neuf saisons ainsi que 119 matchs au niveau professionnel.
+	      Formé au Paris Saint-Germain puis à l'US Créteil, il quitte la France pour entrer
+	      au centre de formation du Arsenal FC où il se fait remarquer avant d'être freiné par de multiples blessures.
+	      Il revient en France, au Football Club Lorient, où il est prêté à l'US Créteil,
+	      faisant une saison pleine. Désirant recevoir plus de temps de jeu, il s'engage au SCO d'Angers, présidé par son père.
+	    </p>
+          </div>
+          <div class="col-xs-12 col-md-6 col-xl-4">
+	    <img class="img-responsive" src="images/nature.jpg" alt="image belleville en vrai"/>
+	    <h3 class="text-center">TITRE H3</h3>
+	    <p>
+	      Guillaume Norbert, né le 14 octobre 1980 à Châtenay-Malabry, est un footballeur français.
+	      Connu pour sa polyvalence au milieu de te
+	      rrain, son poste de prédilection est le flanc droit. Il joue neuf saisons ainsi que 119 matchs au niveau professionnel.
+	      Formé au Paris Saint-Germain puis à l'US Créteil, il quitte la France pour entrer
+	      au centre de formation du Arsenal FC où il se fait remarquer avant d'être freiné par de multiples blessures.
+	      Il revient en France, au Football Club Lorient, où il est prêté à l'US Créteil,
+	      faisant une saison pleine. Désirant recevoir plus de temps de jeu, il s'engage au SCO d'Angers, présidé par son père.
+	    </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-md-6 col-xl-4">
+	    <img class="img-responsive" src="images/nature.jpg" alt="image belleville en vrai"/>
+	    <h3 class="text-center">TITRE H3</h3>
+	    <p>
+	      Guillaume Norbert, né le 14 octobre 1980 à Châtenay-Malabry, est un footballeur français.
+	      Connu pour sa polyvalence au milieu de te
+	      rrain, son poste de prédilection est le flanc droit. Il joue neuf saisons ainsi que 119 matchs au niveau professionnel.
+	      Formé au Paris Saint-Germain puis à l'US Créteil, il quitte la France pour entrer
+	      au centre de formation du Arsenal FC où il se fait remarquer avant d'être freiné par de multiples blessures.
+	      Il revient en France, au Football Club Lorient, où il est prêté à l'US Créteil,
+	      faisant une saison pleine. Désirant recevoir plus de temps de jeu, il s'engage au SCO d'Angers, présidé par son père.
+	    </p>
+          </div>
+          <div class="col-xs-12 col-md-6 col-xl-4">
+	    <img class="img-responsive" src="images/nature.jpg" alt="image belleville en vrai"/>
+	    <h3 class="text-center">TITRE H3</h3>
+	    <p>
+	      Guillaume Norbert, né le 14 octobre 1980 à Châtenay-Malabry, est un footballeur français.
+	      Connu pour sa polyvalence au milieu de te
+	      rrain, son poste de prédilection est le flanc droit. Il joue neuf saisons ainsi que 119 matchs au niveau professionnel.
+	      Formé au Paris Saint-Germain puis à l'US Créteil, il quitte la France pour entrer
+	      au centre de formation du Arsenal FC où il se fait remarquer avant d'être freiné par de multiples blessures.
+	      Il revient en France, au Football Club Lorient, où il est prêté à l'US Créteil,
+	      faisant une saison pleine. Désirant recevoir plus de temps de jeu, il s'engage au SCO d'Angers, présidé par son père.
+	    </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-md-6 col-xl-4">
+	    <img class="img-responsive" src="images/nature.jpg" alt="image belleville en vrai"/>
+	    <h3 class="text-center">TITRE H3</h3>
+	    <p>
+	      Guillaume Norbert, né le 14 octobre 1980 à Châtenay-Malabry, est un footballeur français.
+	      Connu pour sa polyvalence au milieu de te
+	      rrain, son poste de prédilection est le flanc droit. Il joue neuf saisons ainsi que 119 matchs au niveau professionnel.
+	      Formé au Paris Saint-Germain puis à l'US Créteil, il quitte la France pour entrer
+	      au centre de formation du Arsenal FC où il se fait remarquer avant d'être freiné par de multiples blessures.
+	      Il revient en France, au Football Club Lorient, où il est prêté à l'US Créteil,
+	      faisant une saison pleine. Désirant recevoir plus de temps de jeu, il s'engage au SCO d'Angers, présidé par son père.
+	    </p>
+          </div>
+          <div class="col-xs-12 col-md-6 col-xl-4">
+	    <img class="img-responsive" src="images/nature.jpg" alt="image belleville en vrai"/>
+	    <h3 class="text-center">TITRE H3</h3>
+	    <p>
+	      Guillaume Norbert, né le 14 octobre 1980 à Châtenay-Malabry, est un footballeur français.
+	      Connu pour sa polyvalence au milieu de te
+	      rrain, son poste de prédilection est le flanc droit. Il joue neuf saisons ainsi que 119 matchs au niveau professionnel.
+	      Formé au Paris Saint-Germain puis à l'US Créteil, il quitte la France pour entrer
+	      au centre de formation du Arsenal FC où il se fait remarquer avant d'être freiné par de multiples blessures.
+	      Il revient en France, au Football Club Lorient, où il est prêté à l'US Créteil,
+	      faisant une saison pleine. Désirant recevoir plus de temps de jeu, il s'engage au SCO d'Angers, présidé par son père.
+	    </p>
+          </div>
+      </section>
+      <section class="text-center" id="contacts">
+        <h1>Contacts</h1>
 
-    <div TITRETITREwidth="100%;" height="90px;" id="map_canvas"></div>
-    <div class="">
-      <h3>COORDONNÉES</h3>
+        <div TITRETITREwidth="100%;" height="90px;" id="map_canvas"></div>
+        <div class="">
+          <h3>COORDONNÉES</h3>
+          <p>
+
+	    Association Pazapas Belleville <br/>
+
+	    N° SIRET: 500 695 887 00025 <br/>
+
+
+	    21 rue Morêt, Paris, 75 011, FR <br/>
+
+	    Adresse de correspondance <br/>
+
+	    2 av de la concorde, 91270 Vigneux-sur-Seine <br/>
+          </p>
+        </div>
+        <div></div>
+        <p>Vous avez des questions ?</p>
+        <a href="bellevilleenvrai@gmail.com">bellevilleenvrai@gmail.com</a>
+        <a href="pazapas@gmail.com">pazapas@gmail.com</a>
+
+      </section>
+    </main>
+    <footer  class="text-center">
+      <a target="_blank" href="https://www.facebook.com/bellevilleenvrai?fref=ts">
+        <img class="social" width="30px;" src="img/logofacebook.png" alt="logofacebook"/>
+      </a>
+      <a target="_blank" href="https://twitter.com/IssadePazapas">
+        <img class="social" width="30px;" src="img/logotwiter.png" alt="logotwiter"/>
+      </a>
       <p>
-
-	Association Pazapas Belleville <br/>
-
-	N° SIRET: 500 695 887 00025 <br/>
-
-
-	21 rue Morêt, Paris, 75 011, FR <br/>
-
-	Adresse de correspondance <br/>
-
-	2 av de la concorde, 91270 Vigneux-sur-Seine <br/>
+        &copy; _blank team
       </p>
-    </div>
-    <div></div>
-    <p>Vous avez des questions ?</p>
-    <a href="bellevilleenvrai@gmail.com">bellevilleenvrai@gmail.com</a>
-    <a href="pazapas@gmail.com">pazapas@gmail.com</a>
-
-  </section>
-</main>
-<footer  class="text-center">
-  <a target="_blank" href="https://www.facebook.com/bellevilleenvrai?fref=ts">
-    <img class="social" width="30px;" src="img/logofacebook.png" alt="logofacebook"/>
-  </a>
-  <a target="_blank" href="https://twitter.com/IssadePazapas">
-    <img class="social" width="30px;" src="img/logotwiter.png" alt="logotwiter"/>
-  </a>
-  <p>
-    &copy; _blank team
-  </p>
-</footer>
-<!-- Import jQuery and Bootstrap JS -->
-<script type="text/javascript" src="js/jquery/jquery-1.12.0.min.js"></script>
-<script type="text/javascript" src="js/bootstrap/bootstrap.min.js"></script>
-<!-- Our scripts -->
-<script type="text/javascript" src="js/main.js"></script>
-</body>
+    </footer>
+    <!-- Import jQuery and Bootstrap JS -->
+    <script type="text/javascript" src="js/jquery/jquery-1.12.0.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap/bootstrap.min.js"></script>
+    <!-- Our scripts -->
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
 </html>
