@@ -27,3 +27,24 @@ height: 60%;
 #acceuil{
   height: 40%;
 }
+
+.carousel-inner {
+  height: 450px;
+}
+
+.carousel-inner .item, .carousel-inner .item.active {
+    height: 100%;
+    width : 100%;
+}
+
+.carousel-inner .item img {
+    margin: 0px auto;
+    height: 100%;
+    width: auto;
+}
+
+
+
+.content section {
+  margin : 20px 0px ;
+}
