@@ -9,8 +9,38 @@ main{
 padding-bottom:12px ;
 }
 footer{
-border-top: 1px solid;
+border-top: 1px solid gray;
 }
 .social{
 margin-top: 2%;
+}
+.medium-blue{
+color: #232E3F;
+}
+.medium-blue-bg{
+background-color:#232E3F;
+}
+.dark-blue{
+color:#1AAE27;
+}
+.dark-blue-bg{
+background-color: #1AAE27;
+}
+.light-blue{
+color:#505C72;
+}
+.light-blue-bg{
+background-color: #505C72;
+}
+.blue-grey{
+color:#8C98AY;
+}
+.blue-grey-bg{
+background-color:#8C98AY;
+}
+.grey{
+color:#D7D1CA;
+}
+.grey-bg{
+background-color:#D7D1CA;
 }
