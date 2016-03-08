@@ -11,8 +11,12 @@ html, body {
   height: 100%;
 }
 
-.text-center{
-    vertical-align: middle;
+
+
+.header-center{
+    height:200px;
+ line-height:200px;
+ text-align:center;
 }
 
 .textrowcontainer {
@@ -24,8 +28,20 @@ height: 20%;
 height: 60%;
 }
 
-#acceuil{
-  height: 40%;
+
+
+
+.imglog{
+
+}
+main{
+padding-bottom:12px ;
+}
+footer{
+border-top: 1px solid;
+}
+.social{
+margin-top: 2%;
 }
 
 .carousel-inner {
