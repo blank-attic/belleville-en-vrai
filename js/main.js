@@ -45,8 +45,6 @@ function initialize() {
 /* TIMER */	      
 function Megazord () {
 
-	console.log("WESH");
-
 	var date = new Date();
 	var date2 = new Date("May 20 19:00:00 2016");
 	var jour = date.getDate();
