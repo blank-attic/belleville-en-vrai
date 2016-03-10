@@ -3,7 +3,7 @@ html, body {
 }
 body { margin: 0px; padding: 0px }
 #map_canvas { height: 300px ; width:10	00px;}
-		  
+
 .splash-screen{
   background-color: red ;
   margin: 0;
@@ -70,7 +70,9 @@ margin-top: 2%;
 
 
 .content section {
+
   margin : 20px 0px ;
+  padding : 20px 20px 20px 20px;
 }
 
 #chronos
@@ -88,39 +90,16 @@ margin-top: 2%;
   background-size: cover;
   background-repeat:no-repeat;
 }
-.medium-blue{
-  color: #232E3F;
-}
-.medium-blue-bg{
-  background-color: #232E3F;
-}
-.dark-blue{
-  color: #1A1E27;
-}
-.dark-blue-bg{
-  background-color: #1A1E27;
-}
-.light-blue{
-  color: #505C72;
-}
-.light-blue-bg{
-  background-color:#505C72;
-}
-.blue-grey{
-  color:#8C98A4;
-}
-.blue-grey-bg{
-  background-color: #8C98A4;
-}
-.grey{
-  color:#D701CA;
-}
-.violetdegueulasse-bg{
-  background-color:#D701CA;
-}
 
-.nav-item :hover{
-  background-color: #232E3F !important;
+.light-blue-bg{
+  background-color:#505C72;}
+
+ .beige-bg{
+  background-color: #fdd196;
+ }
+
+.bleu-canard {
+background-color: #284f56;
 }
 
 /*grey : #C0C0C0
