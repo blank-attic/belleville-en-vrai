@@ -3,15 +3,6 @@ html, body {
 }
 body { margin: 0px; padding: 0px }
 #map_canvas { height: 300px ; width:10	00px;}
-		  
-.splash-screen {
-  background-color: red ;
-  margin: 0;
-  background-image:url(../img/air_by_stupimistavicta-d8c9aq4.png);
-  background-size: 100%;
-  background-repeat:no-repeat;
-  height: 100%;
-}
 
 
 .text-center {
@@ -70,7 +61,9 @@ footer{
 
 
 .content section {
+
   margin : 20px 0px ;
+  padding : 20px 20px 20px 20px;
 }
 
 #chronos {
