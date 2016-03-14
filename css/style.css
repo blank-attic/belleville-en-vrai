@@ -4,7 +4,7 @@ html, body {
 body { margin: 0px; padding: 0px }
 #map_canvas { height: 300px ; width:10	00px;}
 		  
-.splash-screen{
+.splash-screen {
   background-color: red ;
   margin: 0;
   background-image:url(../img/air_by_stupimistavicta-d8c9aq4.png);
@@ -14,11 +14,11 @@ body { margin: 0px; padding: 0px }
 }
 
 
-.text-center{
+.text-center {
     vertical-align: middle;
 }
 
-.header-center{
+.header-center {
     height:200px;
 	 line-height:200px;
 	 text-align:center;
@@ -29,31 +29,31 @@ body { margin: 0px; padding: 0px }
 height: 20%;
 }
 
-.center-block{
+.center-block {
 height: 60%;
 }
 
 
 
-#acceuil{
+#acceuil {
   height: 40%;
 }
 
-.imglog{
+.imglog {
 
 }
-main{
-padding-bottom:12px ;
+main {
+	padding-bottom:12px ;
 }
 footer{
-border-top: 1px solid;
+	border-top: 1px solid;
 }
-.social{
-margin-top: 2%;
+.social {
+	margin-top: 2%;
 }
 
 .carousel-inner {
-  height: 450px;
+  	height: 450px;
 }
 
 .carousel-inner .item, .carousel-inner .item.active {
@@ -73,54 +73,31 @@ margin-top: 2%;
   margin : 20px 0px ;
 }
 
-#chronos
-{
+#chronos {
   margin-left: 37%;
   margin-right: 30%;
 }
 
 
-/*les jolis couleurs*/
-.splash-screen{
-  background-color: red ;
-  margin: 0;
-  background-image:url(../img/air_by_stupimistavicta-d8c9aq4.png);
-  background-size: cover;
-  background-repeat:no-repeat;
-}
-.medium-blue{
-  color: #232E3F;
-}
-.medium-blue-bg{
-  background-color: #232E3F;
-}
-.dark-blue{
-  color: #1A1E27;
-}
-.dark-blue-bg{
-  background-color: #1A1E27;
-}
-.light-blue{
-  color: #505C72;
-}
-.light-blue-bg{
-  background-color:#505C72;
-}
-.blue-grey{
-  color:#8C98A4;
-}
-.blue-grey-bg{
-  background-color: #8C98A4;
-}
-.grey{
-  color:#D701CA;
-}
-.violetdegueulasse-bg{
-  background-color:#D701CA;
+/*les jolies couleurs*/
+.splash-screen {
+	background-color: red ;
+	margin: 0;
+	background-image:url(../img/air_by_stupimistavicta-d8c9aq4.png);
+	background-size: cover;
+	background-repeat:no-repeat;
 }
 
-.nav-item :hover{
-  background-color: #232E3F !important;
+.light-blue-bg {
+	background-color:#505C72;
+}
+
+.beige-bg {
+	background-color: #fdd196;
+}
+
+.bleu-canard {
+	background-color: #284f56;
 }
 
 /*grey : #C0C0C0
