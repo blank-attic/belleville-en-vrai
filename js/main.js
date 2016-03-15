@@ -3,34 +3,47 @@
 
 /* GOOGLE MAPS */
 function initialize() {
-	console.log("YO");
 
-	map = new google.maps.Map(document.getElementById("map_canvas"), {
-		zoom: 19,
-		center: new google.maps.LatLng(48.867658, 2.379018),
-		mapTypeId: google.maps.MapTypeId.ROADMAP
-	});
-	initMap();
-}
-function initMap() {
-	var myLatLng = {lat: -25.363, lng: 131.044};
+	var canvas = document.getElementById("map_canvas"),
+	      position = {
+	        lat: 48.870615,
+	        lng : 2.382143
+	      },
+	      map = new google.maps.Map(canvas, {
+	        zoom: 14,
+	        center: position,
+	        mapTypeId: google.maps.MapTypeId.ROADMAP
+	  });
 	
-	var map = new google.maps.Map(document.getElementById('map'), {
-		zoom: 4,
-		center: myLatLng
-	});
 	
-	var marker = new google.maps.Marker({
-		position: myLatLng,
-		map: map,
-		title: 'Hello World!'
-	});
+	  var marker = new google.maps.Marker({
+	    position: position,
+	    map: map,
+	    title: 'Hello World!'
+	  });
+	
+	  var infowindow = new google.maps.InfoWindow({
+	    content: "21 rue Morêt, Paris, 75 011, FR "
+	  });
+	
+	  marker.addListener('click', function() {
+	    infowindow.open(map, marker);
+	  });
+	  var marker2 = new google.maps.Marker({
+	    position: { lat : 48.870449, lng : 2.384612},
+	    map: map,
+	    title: 'Parc de belleville !'
+	  });
+	  var infowindow2 = new google.maps.InfoWindow({
+	    content: "Voici le parc de belleville YES "
+	  });
+	  marker2.addListener('click', function() {
+	    infowindow2.open(map, marker2);
+	  });
 }
 
 /* TIMER */	      
 function Megazord () {
-
-	console.log("WESH");
 
 	var date = new Date();
 	var date2 = new Date("May 20 19:00:00 2016");

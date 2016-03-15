@@ -4,21 +4,12 @@ html, body {
 body { margin: 0px; padding: 0px }
 #map_canvas { height: 300px ; width:10	00px;}
 
-.splash-screen{
-  background-color: red ;
-  margin: 0;
-  background-image:url(../img/air_by_stupimistavicta-d8c9aq4.png);
-  background-size: 100%;
-  background-repeat:no-repeat;
-  height: 100%;
-}
 
-
-.text-center{
+.text-center {
     vertical-align: middle;
 }
 
-.header-center{
+.header-center {
     height:200px;
 	 line-height:200px;
 	 text-align:center;
@@ -29,31 +20,31 @@ body { margin: 0px; padding: 0px }
 height: 20%;
 }
 
-.center-block{
+.center-block {
 height: 60%;
 }
 
 
 
-#acceuil{
+#acceuil {
   height: 40%;
 }
 
-.imglog{
+.imglog {
 
 }
-main{
-padding-bottom:12px ;
+main {
+	padding-bottom:12px ;
 }
 footer{
-border-top: 1px solid;
+	border-top: 1px solid;
 }
-.social{
-margin-top: 2%;
+.social {
+	margin-top: 2%;
 }
 
 .carousel-inner {
-  height: 450px;
+  	height: 450px;
 }
 
 .carousel-inner .item, .carousel-inner .item.active {
@@ -75,31 +66,31 @@ margin-top: 2%;
   padding : 20px 20px 20px 20px;
 }
 
-#chronos
-{
+#chronos {
   margin-left: 37%;
   margin-right: 30%;
 }
 
 
-/*les jolis couleurs*/
-.splash-screen{
-  background-color: red ;
-  margin: 0;
-  background-image:url(../img/air_by_stupimistavicta-d8c9aq4.png);
-  background-size: cover;
-  background-repeat:no-repeat;
+/*les jolies couleurs*/
+.splash-screen {
+	background-color: red ;
+	margin: 0;
+	background-image:url(../img/air_by_stupimistavicta-d8c9aq4.png);
+	background-size: cover;
+	background-repeat:no-repeat;
 }
 
-.light-blue-bg{
-  background-color:#505C72;}
+.light-blue-bg {
+	background-color:#505C72;
+}
 
- .beige-bg{
-  background-color: #fdd196;
- }
+.beige-bg {
+	background-color: #fdd196;
+}
 
 .bleu-canard {
-background-color: #284f56;
+	background-color: #284f56;
 }
 
 /*grey : #C0C0C0
