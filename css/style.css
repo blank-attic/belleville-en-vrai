@@ -4,6 +4,11 @@ html, body {
 body { margin: 0px; padding: 0px }
 #map_canvas { height: 300px ; width:10	00px;}
 
+.container-fluid{
+  padding-left: 0;
+  padding-right: 0;
+
+}
 
 .text-center {
     vertical-align: middle;
@@ -62,8 +67,7 @@ footer{
 
 .content section {
 
-  margin : 20px 0px ;
-  padding : 20px 20px 20px 20px;
+  padding: 40px;
 }
 
 #chronos {
@@ -81,16 +85,62 @@ footer{
 	background-repeat:no-repeat;
 }
 
-.light-blue-bg {
-	background-color:#505C72;
+
+.bleu-grey-bg{
+  background-color: #4b5767;
 }
 
-.beige-bg {
-	background-color: #fdd196;
+.bleu-grey{
+  color:  #4b5767;
+}
+
+
+.beige{
+  color: #fdd196;
+}
+
+.beige-bg{
+  background-color: #fdd196;
+}
+
+.beigeclair{
+  color : #edb4a2;
+}
+
+.beigeclair-bg{
+  background-color : #edb4a2;
+}
+
+.vert-clair {
+  color: #c1d8be;
+}
+
+.vert-clair-bg {
+  background-color: #c1d8be;
+}
+
+.bleu-clair{
+  color : #a4dbd1;
+}
+
+.bleu-clair-bg{
+  background-color : #a4dbd1;
+}
+
+.bleu-clair{
+  color: #72e1f4;
+}
+
+.bleu-clair-bg{
+  background-color: #72e1f4;
 }
 
 .bleu-canard {
 	background-color: #284f56;
+}
+
+.bleu-canard-pasbg{
+  color :#284f56;
 }
 
 /*grey : #C0C0C0
