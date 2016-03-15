@@ -1,9 +1,22 @@
 html, body {
     height:100%;
 }
-body { margin: 0px; padding: 0px }
+body { margin: 0px; padding: 0px; background-color: ghostwhite;}
 #map_canvas { height: 300px ; width:10	00px;}
-
+h2{
+  font-size: 45px;
+  font-family: "Ubuntu Condensed",sans-serif;;
+}
+h3{
+  font-size: 30px;
+  font-family: "Lato",sans-serif;
+}
+p{
+  font-family: "Lato",sans-serif;
+}
+.zoomimg{
+position: absolute;
+}
 .container-fluid{
   padding-left: 0;
   padding-right: 0;
@@ -86,62 +99,6 @@ footer{
 }
 
 
-.bleu-grey-bg{
-  background-color: #4b5767;
-}
-
-.bleu-grey{
-  color:  #4b5767;
-}
-
-
-.beige{
-  color: #fdd196;
-}
-
-.beige-bg{
-  background-color: #fdd196;
-}
-
-.beigeclair{
-  color : #edb4a2;
-}
-
-.beigeclair-bg{
-  background-color : #edb4a2;
-}
-
-.vert-clair {
-  color: #c1d8be;
-}
-
-.vert-clair-bg {
-  background-color: #c1d8be;
-}
-
-.bleu-clair{
-  color : #a4dbd1;
-}
-
-.bleu-clair-bg{
-  background-color : #a4dbd1;
-}
-
-.bleu-clair{
-  color: #72e1f4;
-}
-
-.bleu-clair-bg{
-  background-color: #72e1f4;
-}
-
-.bleu-canard {
-	background-color: #284f56;
-}
-
-.bleu-canard-pasbg{
-  color :#284f56;
-}
 
 /*grey : #C0C0C0
 Silver*/
