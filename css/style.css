@@ -127,11 +127,11 @@ footer{
   background-color : #a4dbd1;
 }
 
-.bleu-clair{
+.bleu{
   color: #72e1f4;
 }
 
-.bleu-clair-bg{
+.bleu-bg{
   background-color: #72e1f4;
 }
 
@@ -142,6 +142,16 @@ footer{
 .bleu-canard-pasbg{
   color :#284f56;
 }
+
+.gosthwhite-bg{
+  background-color :#f8f8ff;
+
+}
+
+.h3 {
+  font-family : 'Ubuntu Condensed' ,sans-serif;}
+
+  .p{font-family : 'Lato' ,sans-serif;}
 
 /*grey : #C0C0C0
 Silver*/
