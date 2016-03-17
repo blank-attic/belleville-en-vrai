@@ -1,9 +1,22 @@
 html, body {
     height:100%;
 }
-body { margin: 0px; padding: 0px }
+body { margin: 0px; padding: 0px; background-color: ghostwhite;}
 #map_canvas { height: 300px ; width:10	00px;}
-
+h2{
+  font-size: 45px;
+  font-family: "Ubuntu Condensed",sans-serif;;
+}
+h3{
+  font-size: 30px;
+  font-family: "Lato",sans-serif;
+}
+p{
+  font-family: "Lato",sans-serif;
+}
+.zoomimg{
+position: absolute;
+}
 .container-fluid{
   padding-left: 0;
   padding-right: 0;
