@@ -97,3 +97,74 @@ footer{
 	background-size: cover;
 	background-repeat:no-repeat;
 }
+
+
+.bleu-grey-bg{
+  background-color: #4b5767;
+}
+
+.bleu-grey{
+  color:  #4b5767;
+}
+
+
+.beige{
+  color: #fdd196;
+}
+
+.beige-bg{
+  background-color: #fdd196;
+}
+
+.beigeclair{
+  color : #edb4a2;
+}
+
+.beigeclair-bg{
+  background-color : #edb4a2;
+}
+
+.vert-clair {
+  color: #c1d8be;
+}
+
+.vert-clair-bg {
+  background-color: #c1d8be;
+}
+
+.bleu-clair{
+  color : #a4dbd1;
+}
+
+.bleu-clair-bg{
+  background-color : #a4dbd1;
+}
+
+.bleu{
+  color: #72e1f4;
+}
+
+.bleu-bg{
+  background-color: #72e1f4;
+}
+
+.bleu-canard {
+	background-color: #284f56;
+}
+
+.bleu-canard-pasbg{
+  color :#284f56;
+}
+
+.gosthwhite-bg{
+  background-color :#f8f8ff;
+
+}
+
+.h3 {
+  font-family : 'Ubuntu Condensed' ,sans-serif;}
+
+  .p{font-family : 'Lato' ,sans-serif;}
+
+/*grey : #C0C0C0
+Silver*/
