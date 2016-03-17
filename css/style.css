@@ -1,46 +1,99 @@
-.splash-screen{
-  background-color: red ;
-  margin: 0;
-  background-image:url(../img/air_by_stupimistavicta-d8c9aq4.png);
-  background-size: cover;
-  background-repeat:no-repeat;
+html, body {
+    height:100%;
 }
-main{
-padding-bottom:12px ;
+body { margin: 0px; padding: 0px; background-color: ghostwhite;}
+#map_canvas { height: 300px ; width:10	00px;}
+h2{
+  font-size: 45px;
+  font-family: "Ubuntu Condensed",sans-serif;;
+}
+h3{
+  font-size: 30px;
+  font-family: "Lato",sans-serif;
+}
+p{
+  font-family: "Lato",sans-serif;
+}
+.zoomimg{
+position: absolute;
+}
+.container-fluid{
+  padding-left: 0;
+  padding-right: 0;
+
+}
+
+.text-center {
+    vertical-align: middle;
+}
+
+.header-center {
+    height:200px;
+	 line-height:200px;
+	 text-align:center;
+}
+
+.textrowcontainer {
+  vertical-align: middle;
+height: 20%;
+}
+
+.center-block {
+height: 60%;
+}
+
+
+
+#acceuil {
+  height: 40%;
+}
+
+.imglog {
+
+}
+main {
+	padding-bottom:12px ;
 }
 footer{
-border-top: 1px solid gray;
+	border-top: 1px solid;
 }
-.social{
-margin-top: 2%;
+.social {
+	margin-top: 2%;
 }
-.medium-blue{
-color: #232E3F;
+
+.carousel-inner {
+  	height: 450px;
 }
-.medium-blue-bg{
-background-color:#232E3F;
+
+.carousel-inner .item, .carousel-inner .item.active {
+    height: 100%;
+    width : 100%;
 }
-.dark-blue{
-color:#1AAE27;
+
+.carousel-inner .item img {
+    margin: 0px auto;
+    height: 100%;
+    width: auto;
 }
-.dark-blue-bg{
-background-color: #1AAE27;
+
+
+
+.content section {
+
+  padding: 40px;
 }
-.light-blue{
-color:#505C72;
+
+#chronos {
+  margin-left: 37%;
+  margin-right: 30%;
 }
-.light-blue-bg{
-background-color: #505C72;
-}
-.blue-grey{
-color:#8C98AY;
-}
-.blue-grey-bg{
-background-color:#8C98AY;
-}
-.grey{
-color:#D7D1CA;
-}
-.grey-bg{
-background-color:#D7D1CA;
+
+
+/*les jolies couleurs*/
+.splash-screen {
+	background-color: red ;
+	margin: 0;
+	background-image:url(../img/air_by_stupimistavicta-d8c9aq4.png);
+	background-size: cover;
+	background-repeat:no-repeat;
 }
